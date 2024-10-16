@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #0f1c2a;
+}
+.nav-item .nav-link{
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+}
+.nav-item .nav-link:hover{
+    color: #CCA876;
+}
+
+.navbar-nav{
+    margin: 0px 70px;
+    gap: 50px;
+
+}
+.img{
+    width: 75px;
+    height: 75px;
+}
+.btn{
+    background-color: #CCA876;
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    text-align: center;
+    font-weight: 600;
+}
