@@ -1,5 +1,13 @@
 .navbar{
+    display: flex;
     background-color: #0f1c2a;
+}
+.navbar-toggler{
+    background-color: #CCA876;
+    padding: 5px;
+}
+.navbar-toggler-icon{
+    color: #0f1c2a;
 }
 .nav-item .nav-link{
    color: white;
@@ -11,9 +19,8 @@
 }
 
 .navbar-nav{
-    margin: 0px 70px;
+    margin:auto ;
     gap: 50px;
-
 }
 .img{
     width: 75px;
@@ -23,7 +30,18 @@
     background-color: #CCA876;
     font-size: 20px;
     color: white;
-    width: 150px;
+    width: 100px;
     text-align: center;
     font-weight: 600;
+    width: 140px;
+}
+@media(max-width:325px){
+    .img{
+       width: 60px;
+       height: 60px;
+    }
+    .navbar-nav{
+        margin:auto ;
+        gap: 20px;
+    }
 }

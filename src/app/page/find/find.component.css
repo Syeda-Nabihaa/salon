@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 26px;
+    background-color: #0f1c2a;
+    border-radius: 5px;
+}
+.find input,select,button{
+    margin:  0 10px;
+    color: aliceblue;
+    border: 1px solid #CCA876;
+    background: transparent;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px; 
+    
+}
+.find button{
+    text-align: center;
+    background-color: #CCA876;
+}
+.option{
+    background-color: #0f1c2a;
+    color: aliceblue;
+}

@@ -1,0 +1,15 @@
+.card{
+    background-color: #0f1c2a;
+    border-radius: 26px;
+    color: aliceblue;
+    width: 100%;
+}
+.cardBtn{
+    background-color: #CCA876;
+    border-radius: 5px;
+}
+.img-fluid{
+    width: 227px;
+    height: 151px;
+    object-fit: cover;
+}

@@ -1,0 +1,22 @@
+<div class="card  mb-3">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img [src]="image" class="img-fluid rounded-start" alt="..." />
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h3 class="card-title">{{ title }}</h3>
+        <p>{{ name }}</p>
+        <p class="card-text">{{ year }}</p>
+        <p class="card-text">{{ description }}</p>
+        <!-- <button class="cardBtn text-white p-2 border-0">Get Service</button> -->
+        <app-primarybutton
+          buttonText="Get Service"
+          buttonPx="5"
+          buttonPy="5"
+          buttonWidth="150"
+        ></app-primarybutton>
+      </div>
+    </div>
+  </div>
+</div>

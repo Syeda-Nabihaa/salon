@@ -7,6 +7,9 @@ import { HeaderComponent } from './component/header/header.component';
 import { HomeComponent } from './page/home/home.component';
 import { AboutComponent } from './page/about/about.component';
 import { ContactComponent } from './page/contact/contact.component';
+import { FindComponent } from './page/find/find.component';
+import { PrimarybuttonComponent } from './component/buttons/primarybutton/primarybutton.component';
+import { ServicesComponent } from './component/cards/services/services.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,6 +17,9 @@ import { ContactComponent } from './page/contact/contact.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
+    FindComponent,
+    PrimarybuttonComponent,
+    ServicesComponent,
   ],
   imports: [
     BrowserModule,
