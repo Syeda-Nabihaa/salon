@@ -19,3 +19,14 @@
     </div>
   </div>
 </div>
+
+<div class="row">
+  <div class="col-lg-6 col-sm-12" *ngFor="let service of data">
+    <app-services
+      [image]="service.img_url"
+      [title]="service. name"
+      [name]="service.owner_name"
+      [year]="service.experience"
+      [description]="service.address">
+    </app-services>
+  </div>

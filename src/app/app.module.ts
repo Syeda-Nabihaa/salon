@@ -10,6 +10,7 @@ import { ContactComponent } from './page/contact/contact.component';
 import { FindComponent } from './page/find/find.component';
 import { PrimarybuttonComponent } from './component/buttons/primarybutton/primarybutton.component';
 import { ServicesComponent } from './component/cards/services/services.component';
+import { AppointmentsComponent } from './component/cards/appointments/appointments.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { ServicesComponent } from './component/cards/services/services.component
     FindComponent,
     PrimarybuttonComponent,
     ServicesComponent,
+    AppointmentsComponent,
   ],
   imports: [
     BrowserModule,
