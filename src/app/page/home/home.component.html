@@ -82,105 +82,43 @@
     </button>
   </div>
 </div>
+
 <div class="find">
-  <app-find></app-find>
+  <app-search></app-search>
 </div>
 
-<!-- <div class="container d-flex">
+<div class="container">
   <div class="row">
-    <div class="col-lg-6 col-sm-12">
+    <div class="col-lg-6 col-sm-12" *ngFor="let service of data">
       <app-services
-        image="../../../../assets/images/logo.png"
-        title="Glamour Cuts"
-        name="Emily Johnson"
-        year="10 years"
-        description="123 Main St, Los Angeles, California"
+        [image]="service.img_url"
+        [title]="service.name"
+        [name]="service.owner_name"
+        [year]="service.experience"
+        [description]="service.address"
       >
       </app-services>
     </div>
-
-    <div class="col-lg-6 col-sm-12">
-      <app-services
-        image="../../../../assets/images/logo.png"
-        title="Style Heaven"
-        name="Michael Smith"
-        year="8 years"
-        description="456 Broadway, New York City, New York"
-      >
-      </app-services>
-    </div>
-
-    <div class="col-lg-6 col-sm-12">
-      <app-services
-        image="../../../../assets/images/logo.png"
-        title="Chic Trends"
-        name="Jessica Brown"
-        year="5 years"
-        description="789 Oak St, Houston, Texas"
-      >
-      </app-services>
-    </div>
-
-    <div class="col-lg-6 col-sm-12">
-      <app-services
-        image="../../../../assets/images/logo.png"
-        title="Elegance Studio"
-        name="David Wilson"
-        year="12 years"
-        description="101 Palm Ave, Miami, Florida"
-      >
-      </app-services>
-    </div>
-  </div>
-</div> -->
-
-<div class="row">
-  <div class="col-lg-6 col-sm-12" *ngFor="let service of data">
-    <app-services
-      [image]="service.img_url"
-      [title]="service. name"
-      [name]="service.owner_name"
-      [year]="service.experience"
-      [description]="service.address">
-    </app-services>
   </div>
 </div>
 
-<div class="row d-flex">
-<div class="mt-5 col-lg-3 col-sm-6">
-  <app-appointments 
-  icon="bi bi-scissors"
-  step="Step 1"
-  service="Haircuts" 
-  > 
-  </app-appointments>
-  </div>
-
-  <div class="mt-5 col-lg-3 col-sm-6">
-    <app-appointments 
-    icon="bi-scissors"
-    step="Step 2"
-    service="Hair Coloring" 
-    > 
-    </app-appointments>
-    </div>
-
-    <div class="mt-5 col-lg-3 col-sm-6">
-      <app-appointments 
-      icon="bi bi-scissors"
-      step="Step 3"
-      service="Styling" 
-      > 
+<div class="container work">
+<h3 class="mainText">How It's Work</h3>
+<h1 class="Text">Four Steps for Geting an Appointment ✃</h1>
+<p class="Text">
+  Start your journey by exploring our wide range of salon and parlour services.
+  From haircuts to facials, and nails to massages, we have it all.
+</p>
+</div>
+<div class="container d-flex mt-5 justify-content-center">
+  <div class="row">
+    <div class="col-lg-3 col-sm-6 mb-3" *ngFor="let work of data1">
+      <app-appointments
+        [icon]="work.icon"
+        [step]="work.step"
+        [service]="work.title"
+      >
       </app-appointments>
-      </div>
-
-      <div class="mt-5 col-lg-3 col-sm-6">
-        <app-appointments 
-        icon="bi bi-scissors"
-        step="Step 4"
-        service="Extensions" 
-        > 
-        </app-appointments>
-        </div>
-      </div>
-
+    </div>
+  </div>
+</div>

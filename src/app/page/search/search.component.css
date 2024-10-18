@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+    background-color: #0f1c2a;
+    border-radius: 25px;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+    margin: auto;
+    gap: 20px;
+
+}
+.find input,select,button{
+   
+    /* margin:  0 10px; */
+    color: aliceblue;
+    border: 1px solid #CCA876;
+    background: transparent;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px; 
+    margin-top: 5px;
+}
+.find button{
+    text-align: center;
+    background-color: #CCA876;
+}
+.option{
+    background-color: #0f1c2a;
+    color: aliceblue;
+}
+@media(max-width:1200px){
+    .services{
+        gap: 10px;
+    }
+    .find input,select,button{
+        width: 250px;
+    }
+}
+@media(max-width:996px){
+    .services{
+        gap: 10px;
+    }
+    .find input,select,button{
+        width: 250px;
+    }
+}
+@media (max-width:768px){
+    .services{
+        flex-direction: column;
+    }
+    
+}

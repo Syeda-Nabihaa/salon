@@ -11,6 +11,7 @@ import { FindComponent } from './page/find/find.component';
 import { PrimarybuttonComponent } from './component/buttons/primarybutton/primarybutton.component';
 import { ServicesComponent } from './component/cards/services/services.component';
 import { AppointmentsComponent } from './component/cards/appointments/appointments.component';
+import { SearchComponent } from './page/search/search.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { AppointmentsComponent } from './component/cards/appointments/appointmen
     PrimarybuttonComponent,
     ServicesComponent,
     AppointmentsComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,

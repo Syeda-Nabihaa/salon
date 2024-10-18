@@ -2,14 +2,19 @@
     background-color: #0f1c2a;
     border-radius: 26px;
     color: aliceblue;
-    width: 100%;
+    padding: 10px;
 }
 .cardBtn{
     background-color: #CCA876;
     border-radius: 5px;
 }
+.card-body{
+    margin-left: 10px;
+}
 .img-fluid{
-    width: 227px;
-    height: 151px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
+    vertical-align: middle;
+    border-radius: 26px;
 }

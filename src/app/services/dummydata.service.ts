@@ -286,21 +286,25 @@ export class DummydataService {
   work = [
     {
       id: 1,
+      step:'Step 1',
       title: 'Haircuts',
       icon: 'bi bi-scissors',
     },
     {
       id: 2,
+      step:'Step 2',
       title: 'Hair Coloring',
       icon: 'bi bi-palette',
     },
     {
       id: 3,
+      step:'Step 3',
       title: 'Styling',
       icon: 'bi bi-brush',
     },
     {
       id: 4,
+      step:'Step 4',
       title: 'Extensions',
       icon: 'bi bi-link-45deg',
     },
