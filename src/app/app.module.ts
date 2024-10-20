@@ -12,6 +12,10 @@ import { PrimarybuttonComponent } from './component/buttons/primarybutton/primar
 import { ServicesComponent } from './component/cards/services/services.component';
 import { AppointmentsComponent } from './component/cards/appointments/appointments.component';
 import { SearchComponent } from './page/search/search.component';
+import { ReviewsComponent } from './component/cards/reviews/reviews.component';
+import { GalleryComponent } from './page/gallery/gallery.component';
+import { FooterComponent } from './component/footer/footer.component';
+import { CareComponent } from './page/care/care.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +28,10 @@ import { SearchComponent } from './page/search/search.component';
     ServicesComponent,
     AppointmentsComponent,
     SearchComponent,
+    ReviewsComponent,
+    GalleryComponent,
+    FooterComponent,
+    CareComponent,
   ],
   imports: [
     BrowserModule,

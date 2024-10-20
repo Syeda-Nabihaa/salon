@@ -19,6 +19,13 @@ interface Titles1{
   icon: string
 }
 
+interface reviews{
+  id:number,
+  count:number,
+  icon:string,
+  title:string
+}
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -27,10 +34,12 @@ interface Titles1{
 export class HomeComponent {
   data: Titles[] = [];
   data1: Titles1[] = [];
+  Reviews:reviews[]=[];
   constructor(private dummyData: DummydataService) {}
   ngOnInit(): void {
     this.data = this.dummyData.services.slice(0,4);
     this.data1 = this.dummyData.work;
+    this.Reviews=this.dummyData.reviews;
   }
 
 }

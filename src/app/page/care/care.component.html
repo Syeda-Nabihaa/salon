@@ -1,0 +1,26 @@
+<div class="container work pt-5">
+  <h3 class="mainText">Service Item</h3>
+  <h4 class="Text">
+    Celebrate Your Beauty Journey: Explore Our Array of Services ✃
+  </h4>
+  <p class="Text">
+    Start your journey by exploring our wide range of salon and parlour
+    services. From haircuts to facials, and nails to massages, we have it all.
+  </p>
+</div>
+<div class="container d-flex mt-5 justify-content-center">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 mb-3" *ngFor="let work of care">
+        <app-appointments
+          [icon]="work.icon"
+          [step]="work.step"
+          [service]="work.service"
+        > 
+        </app-appointments>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5">
+  <app-footer></app-footer>
+</div>

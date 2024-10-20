@@ -10,11 +10,10 @@
     padding: 2rem;
     margin: auto;
     gap: 20px;
+   width: 100%;
 
 }
 .find input,select,button{
-   
-    /* margin:  0 10px; */
     color: aliceblue;
     border: 1px solid #CCA876;
     background: transparent;
@@ -24,7 +23,7 @@
     font-size: 20px; 
     margin-top: 5px;
 }
-.find button{
+.services button{
     text-align: center;
     background-color: #CCA876;
 }
@@ -45,12 +44,15 @@
         gap: 10px;
     }
     .find input,select,button{
-        width: 250px;
+        width: 200px;
     }
 }
-@media (max-width:768px){
+@media (max-width:900px){
     .services{
         flex-direction: column;
+    }
+    .find input,select,button{
+        width: 100%;
     }
     
 }

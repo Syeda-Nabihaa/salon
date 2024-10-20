@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { count } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -309,5 +310,59 @@ export class DummydataService {
       icon: 'bi bi-link-45deg',
     },
   ];
+
+  reviews = [
+    {
+      id: 1,
+      icon: 'bi bi-person-circle',
+      count:71543,
+      title:'Happy Customers'
+    },
+    {
+      id: 2,
+      icon: 'bi bi-browser-safari',
+      count:345,
+      title:'Our Branches'
+    },
+    {
+      id: 1,
+      icon: 'bi bi-chat-heart',
+      count:112232,
+      title:'Successful Customers'
+    },
+    {
+      id: 1,
+      icon: 'bi bi-people-fill',
+      count:142,
+      title:'Gets Service'
+    }
+  ];
+
+  care = [
+    {
+      id: 1,
+      step: 'Haircuts',
+      service:'Haircut & Styling',
+      icon: 'bi bi-scissors',
+    },
+    {
+      id: 2,
+      step: 'Coloring',
+      service:'Hair Coloring',
+      icon: 'bi bi-brush',
+    },
+    {
+      id: 3,
+      step: 'Mani/Pedi',
+      service:'Manicure & Pedicure',
+      icon: 'bi bi-hand-index-thumb',
+    },
+    {
+      id: 4,
+      step: 'Facial',
+      service:'Facial Treatments',
+      icon: 'bi bi-emoji-smile-fill',
+    },
+  ]
   constructor() {}
 }
