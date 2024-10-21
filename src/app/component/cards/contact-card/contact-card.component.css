@@ -1,0 +1,14 @@
+.card{
+    background-color: #0f1c2a;
+    border-radius: 26px;
+    color: aliceblue;
+    padding: 10px 30px 30px;
+   max-width: 100%; 
+    height: auto;
+    
+}
+.icon{
+    font-size: 3rem;
+    object-fit: cover;
+    color:#cca876;
+}

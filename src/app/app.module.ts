@@ -19,6 +19,7 @@ import { CareComponent } from './page/care/care.component';
 import { CarecardsComponent } from './component/cards/carecards/carecards.component';
 import { BlogComponent } from './page/blog/blog.component';
 import { BlogCardsComponent } from './component/cards/blog-cards/blog-cards.component';
+import { ContactCardComponent } from './component/cards/contact-card/contact-card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +39,7 @@ import { BlogCardsComponent } from './component/cards/blog-cards/blog-cards.comp
     CarecardsComponent,
     BlogComponent,
     BlogCardsComponent,
+    ContactCardComponent,
   ],
   imports: [
     BrowserModule,

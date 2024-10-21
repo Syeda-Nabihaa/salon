@@ -13,7 +13,8 @@ interface Titles1{
   styleUrls: ['./care.component.css']
 })
 export class CareComponent {
-  care: Titles1[] = [];constructor(private dummyData: DummydataService) {}
+  care: Titles1[] = [];
+  constructor(private dummyData: DummydataService) {}
   ngOnInit(): void {
     this.care = this.dummyData.care;
  

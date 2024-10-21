@@ -32,14 +32,14 @@ export class DummydataService {
       title: '10 Easy Hairstyles for Busy Mornings',
       img: 'https://images.unsplash.com/photo-1502323777036-f29e3972d82f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       description:
-        'Get ready in a flash with these quick and easy hairstyles perfect for busy mornings. Look stylish without the hassle!',
+        'Get ready in a flash with these quick and easy hairstyles perfect for busy mornings. Whether youre rushing to work -  these styles will have you looking stylish without the hassle!',
     },
     {
       id: 5,
-      title: 'The Ultimate Guide to Hair Coloring Techniques',
+      title: 'The Ultimate Guide to Hair Coloring ideas and Techniques',
       img: 'https://images.unsplash.com/photo-1485396003708-e7a7ad32484f?q=80&w=2117&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       description:
-        'Explore the latest hair coloring techniques and trends. From balayage to ombre, learn how to achieve stunning hair color transformations.',
+        'Explore the latest hair coloring techniques and trends. From balayage to ombre, learn how to achieve stunning hair color transformations that can elevate your style -  express your individuality through beautiful hair color.',
     },
     {
       id: 6,
@@ -63,21 +63,21 @@ export class DummydataService {
       type: 'Location',
       icon: 'bi bi-geo-alt',
       text: 'Our Location',
-      address: '123 Main St, Los Angeles, California',
+      description: '123 Main St, Los Angeles, California',
     },
     {
       id: 2,
       type: 'Phone',
       icon: 'bi bi-phone',
       text: 'Phone Number',
-      number: '+1 (123) 456-7890',
+      description: '+1 (123) 456-7890',
     },
     {
       id: 3,
       type: 'Email',
       icon: 'bi bi-envelope',
       text: 'Email Address',
-      email: 'info@hairhub.com',
+      description: 'info@hairhub.com',
     },
   ];
 
@@ -287,25 +287,25 @@ export class DummydataService {
   work = [
     {
       id: 1,
-      step:'Step 1',
+      step: 'Step 1',
       title: 'Haircuts',
       icon: 'bi bi-scissors',
     },
     {
       id: 2,
-      step:'Step 2',
+      step: 'Step 2',
       title: 'Hair Coloring',
       icon: 'bi bi-palette',
     },
     {
       id: 3,
-      step:'Step 3',
+      step: 'Step 3',
       title: 'Styling',
       icon: 'bi bi-brush',
     },
     {
       id: 4,
-      step:'Step 4',
+      step: 'Step 4',
       title: 'Extensions',
       icon: 'bi bi-link-45deg',
     },
@@ -315,54 +315,54 @@ export class DummydataService {
     {
       id: 1,
       icon: 'bi bi-person-circle',
-      count:71543,
-      title:'Happy Customers'
+      count: 71543,
+      title: 'Happy Customers',
     },
     {
       id: 2,
       icon: 'bi bi-browser-safari',
-      count:345,
-      title:'Our Branches'
+      count: 345,
+      title: 'Our Branches',
     },
     {
       id: 1,
       icon: 'bi bi-chat-heart',
-      count:112232,
-      title:'Successful Customers'
+      count: 112232,
+      title: 'Successful Customers',
     },
     {
       id: 1,
       icon: 'bi bi-people-fill',
-      count:142,
-      title:'Gets Service'
-    }
+      count: 142,
+      title: 'Gets Service',
+    },
   ];
 
   care = [
     {
       id: 1,
       title: 'Haircuts',
-      detail:'Haircut & Styling',
+      detail: 'Haircut & Styling',
       icon: 'bi bi-scissors',
     },
     {
       id: 2,
       title: 'Coloring',
-      detail:'Hair Coloring',
+      detail: 'Hair Coloring',
       icon: 'bi bi-brush',
     },
     {
       id: 3,
       title: 'Mani/Pedi',
-      detail:'Manicure & Pedicure',
+      detail: 'Manicure & Pedicure',
       icon: 'bi bi-hand-index-thumb',
     },
     {
       id: 4,
       title: 'Facial',
-      detail:'Facial Treatments',
+      detail: 'Facial Treatments',
       icon: 'bi bi-emoji-smile-fill',
     },
-  ]
+  ];
   constructor() {}
 }

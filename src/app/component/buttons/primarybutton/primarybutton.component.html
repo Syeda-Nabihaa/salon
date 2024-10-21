@@ -2,9 +2,10 @@
   class="buttons"
   [ngStyle]="{
     padding: buttonPx + 'px ' + buttonPy + 'px',
-    width: buttonWidth + '%'
+    width: buttonWidth + '%',
+    marginTop:buttonMarginT + 'px'
   }"
-  (click)="handleClick()"
+  
 >
   {{ buttonText }}
 </button>

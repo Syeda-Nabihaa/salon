@@ -1,0 +1,23 @@
+h1{
+    color: #cca876;
+}
+.home-img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+  }
+input, textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid  #cca876;
+    background: transparent;
+}
+span{
+    color: #cca876;
+}
+input{
+    padding: 10px;
+}
+h2,label{
+    color: white;
+}

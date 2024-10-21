@@ -10,13 +10,6 @@ export class PrimarybuttonComponent {
   @Input() buttonPx: string = '';
   @Input() buttonPy: string = '';
   @Input() buttonWidth: string = '';
-  @Input() onClick?: (param: any) => void;
-
-  // Adjust handleClick to allow passing a parameter
-  handleClick() {
-    const param = 'some value';  // Define the parameter you want to pass
-    if (this.onClick) {
-      this.onClick(param);  // Pass the parameter to the onClick function
-    }
-  }
+  @Input() buttonMarginT: string = '';
+  
 }

@@ -1,1 +1,57 @@
-<p>contact works!</p>
+<div class="container text-center pt-5 pb-5">
+  <h1>Request a Contact us</h1>
+</div>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-3 col-sm-6 mb-3" *ngFor="let contact of data">
+      <app-contact-card
+        [icon]="contact.icon"
+        [Location]="contact.text"
+        [address]="contact.description"
+      >
+      </app-contact-card>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-lg-7">
+      <img
+        src="https://images.unsplash.com/photo-1556755137-a16b24c5d19a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+        class="home-img"
+      />
+    </div>
+    <div class="col-lg-5">
+      <h2>Feel Free To Get In Touch With Us</h2>
+      <br>
+      <form>
+        <label for="">Name <span>*</span></label><br /><br>
+        <input type="text" id="" required /> <br /><br>
+
+        <label for="">Email <span>*</span></label><br /><br>
+        <input type="text" id="" required /><br /><br>
+
+        <label for="">Leave A Messeage For Us <span>*</span></label><br /><br>
+        <textarea name="" id="" cols="30" rows="10" required></textarea>
+
+        <app-primarybutton
+        buttonText="Submit"
+        buttonWidth="40"
+        buttonMarginT="30"
+        buttonPx="10"
+        buttonPy="20"
+        
+        >
+
+        </app-primarybutton>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="mt-5">
+    <app-footer></app-footer>
+</div>

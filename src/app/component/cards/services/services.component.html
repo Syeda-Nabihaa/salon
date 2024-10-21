@@ -11,12 +11,12 @@
         <p class="card-text">{{ description }}</p>
         <!-- <button class="cardBtn text-white p-2 border-0">Get Service</button> -->
         <app-primarybutton
-          buttonText="Get Service"
-          buttonPx="5"
-          buttonPy="5"
-          buttonWidth="60"
-       
-        ></app-primarybutton>
+        buttonText="Get Service"
+        buttonPx="5"
+        buttonPy="5"
+        buttonWidth="60"
+        (click)="actionOne(name)"
+      ></app-primarybutton>
       </div>
     </div>
   </div>

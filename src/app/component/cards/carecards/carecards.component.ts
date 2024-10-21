@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./carecards.component.css']
 })
 export class CarecardsComponent {
-  @Input({required:true}) icon:string=''
-  @Input({required:true}) title:string=''
-  @Input({required:true}) detail:string=''
+  @Input() icon:string=''
+  @Input() title:string=''
+  @Input() detail:string=''
 }
