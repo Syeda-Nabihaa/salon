@@ -1,0 +1,21 @@
+<div class="container pt-5">
+  <h3>Web Journal</h3>
+  <h2>Bloom with eSalon ✃</h2>
+  <p>Your Beauty & Lifestyle Hub</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-sm-12" *ngFor="let blog of data">
+      <app-blog-cards
+        [img]="blog.img"
+        [title]="blog.title"
+        [detail]="blog.description"
+      >
+      </app-blog-cards>
+    </div>
+  </div>
+</div>
+<div class="mt-5">
+<app-footer></app-footer>
+</div>

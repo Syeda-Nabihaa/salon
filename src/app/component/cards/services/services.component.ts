@@ -12,4 +12,9 @@ export class ServicesComponent {
   @Input ({required:true}) year:string=''
   @Input ({required:true}) description:string=''
 
+  actionOne(param: string) {
+    console.log('Button clicked with param:', param);
+
+    // Add your custom logic here for the first button
+  }
 }

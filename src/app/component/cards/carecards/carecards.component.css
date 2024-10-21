@@ -1,0 +1,14 @@
+.card{
+    color: white;
+    background-color: #0f1c2a;
+    text-align: start;
+    border-radius:20px;
+    padding: 15px 30px 30px 30px;
+    width: 100%;
+}
+
+.icon{
+    font-size: 3rem;
+    object-fit: cover;
+    color:#cca876;
+}

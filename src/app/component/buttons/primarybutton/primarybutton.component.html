@@ -1,1 +1,10 @@
-<button class="buttons" [ngStyle]="{'padding': buttonPx + 'px ' + buttonPy + 'px', 'width':buttonWidth + 'px'}">{{buttonText}}</button>
+<button
+  class="buttons"
+  [ngStyle]="{
+    padding: buttonPx + 'px ' + buttonPy + 'px',
+    width: buttonWidth + '%'
+  }"
+  (click)="handleClick()"
+>
+  {{ buttonText }}
+</button>

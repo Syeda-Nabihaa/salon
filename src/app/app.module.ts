@@ -16,6 +16,9 @@ import { ReviewsComponent } from './component/cards/reviews/reviews.component';
 import { GalleryComponent } from './page/gallery/gallery.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { CareComponent } from './page/care/care.component';
+import { CarecardsComponent } from './component/cards/carecards/carecards.component';
+import { BlogComponent } from './page/blog/blog.component';
+import { BlogCardsComponent } from './component/cards/blog-cards/blog-cards.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,10 +35,14 @@ import { CareComponent } from './page/care/care.component';
     GalleryComponent,
     FooterComponent,
     CareComponent,
+    CarecardsComponent,
+    BlogComponent,
+    BlogCardsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

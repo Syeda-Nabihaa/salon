@@ -341,26 +341,26 @@ export class DummydataService {
   care = [
     {
       id: 1,
-      step: 'Haircuts',
-      service:'Haircut & Styling',
+      title: 'Haircuts',
+      detail:'Haircut & Styling',
       icon: 'bi bi-scissors',
     },
     {
       id: 2,
-      step: 'Coloring',
-      service:'Hair Coloring',
+      title: 'Coloring',
+      detail:'Hair Coloring',
       icon: 'bi bi-brush',
     },
     {
       id: 3,
-      step: 'Mani/Pedi',
-      service:'Manicure & Pedicure',
+      title: 'Mani/Pedi',
+      detail:'Manicure & Pedicure',
       icon: 'bi bi-hand-index-thumb',
     },
     {
       id: 4,
-      step: 'Facial',
-      service:'Facial Treatments',
+      title: 'Facial',
+      detail:'Facial Treatments',
       icon: 'bi bi-emoji-smile-fill',
     },
   ]

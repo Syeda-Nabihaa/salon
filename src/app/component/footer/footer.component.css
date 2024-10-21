@@ -22,9 +22,9 @@ a:hover{
     color: aliceblue;
     border-radius: 50%;
 }
-@media (max-width:556px){
+@media (max-width:768px){
     footer{
-        width: 100%;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
         text-align: left;
     }
 }

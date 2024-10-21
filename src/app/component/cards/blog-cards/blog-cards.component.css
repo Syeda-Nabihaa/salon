@@ -1,0 +1,13 @@
+.card{
+    background-color: #0f1c2a;
+    border-radius: 30px;
+    color: aliceblue;
+    padding: 10px;
+    /* width: 446px; */
+    width: 100%;
+    height: auto;
+ 
+}
+.card-img-top{
+    border-radius: 26px;
+}

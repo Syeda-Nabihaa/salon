@@ -1,9 +1,9 @@
 <div class="card mb-3">
   <div class="row g-0">
-    <div class="col-md-4">
+    <div class="col-md-6">
       <img [src]="image" class="img-fluid mt-2" alt="..." />
     </div>
-    <div class="col-md-8">
+    <div class="col-md-6">
       <div class="card-body">
         <h3 class="card-title">{{ title }}</h3>
         <p>{{ name }}</p>
@@ -14,9 +14,11 @@
           buttonText="Get Service"
           buttonPx="5"
           buttonPy="5"
-          buttonWidth="150"
+          buttonWidth="60"
+       
         ></app-primarybutton>
       </div>
     </div>
   </div>
 </div>
+   <!-- [onClick]="() => actionOne('val')" -->

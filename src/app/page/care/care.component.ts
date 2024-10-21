@@ -3,9 +3,9 @@ import { DummydataService } from 'src/app/services/dummydata.service';
 
 interface Titles1{
   id: number,
-  step: string,
+  title: string,
   icon: string,
-  service:string
+  detail:string
 }
 @Component({
   selector: 'app-care',
