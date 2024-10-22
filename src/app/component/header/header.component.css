@@ -44,3 +44,16 @@
         gap: 20px;
     }
 }
+.pic{
+    width: 100%;
+    height: 100%;
+}
+.modal-body{
+    background-color: #0f1c2a;
+}
+input{
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #CCA876 ;
+    width: 100%;
+}

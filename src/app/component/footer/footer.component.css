@@ -27,5 +27,8 @@ a:hover{
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
         text-align: left;
     }
+    .bi{
+        text-align: left;
+    }
 }
 

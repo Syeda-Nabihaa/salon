@@ -5,9 +5,13 @@
     border-radius:20px;
     border-color: #c8af69;
     padding: 2rem;
+    transition: ease-out 0.5s;
 }
 .icon{
     font-size: 3rem;
     object-fit: cover;
     color: #c8af69;
+}
+.card:hover{
+    transform: translateY(-5%);
 }

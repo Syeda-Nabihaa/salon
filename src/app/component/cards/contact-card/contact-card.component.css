@@ -3,12 +3,15 @@
     border-radius: 26px;
     color: aliceblue;
     padding: 10px 30px 30px;
-   max-width: 100%; 
-    height: auto;
-    
+    max-width: 100%; 
+    transition: ease-out 0.5s;
 }
 .icon{
     font-size: 3rem;
     object-fit: cover;
     color:#cca876;
+}
+.card:hover{
+    transform: translateY(-5%);
+    border: 1px solid #cca876;
 }
